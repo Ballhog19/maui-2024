@@ -1,5 +1,5 @@
-const petPromise = await fetch("pets.json")
-const pets = await petPromise.json()
+const activityPromise = await fetch("../data/activities.json")
+const activities = await activityPromise.json()
 
 const template = document.querySelector("#animal-card")
 const wrapper = document.createElement("div")
@@ -12,37 +12,40 @@ function decideAgeText(age) {
     return age > 1 ? `${age} years old` : "1 year old"
 }
 
-pets.forEach(pet => {
+activities.forEach(activity => {
     const clone = template.content.cloneNode(true)
-    clone.querySelector("h3").textContent = pet.name
+    clone.querySelector("h3").textContent = activity.name
 
     const img = clone.querySelector("img")
-    img.src = pet.photo
-    img.alt = `A ${pet.species} named ${pet.name}`
+    img.src = `../images/activities/${activity.photo}`
+    img.alt = `${activity.name}`
 
-    const age = new Date().getFullYear() - pet.birthYear
-    const ageText = decideAgeText(age)
-    clone.querySelector(".age").textContent = ageText
+    clone.querySelector(".date").textContent = activity.date == undefined ? "" : `${activity.date}`
+    
+    clone.querySelector(".attending").textContent = activity.attending
+    clone.querySelector(".description").textContent = activity.description
 
-    clone.querySelector(".species").textContent = pet.species
-    clone.querySelector(".description").textContent = pet.description
-
-    clone.querySelector(".name").textContent = pet.name
-    clone.querySelector(".primary-btn").href = `https://learnwebcode.github.io/pet-adoption-data/pets/${pet.id}/`
+    const button = clone.querySelector(".primary-btn")
+    if (activity.link == undefined) {
+        button.remove()
+    } else {
+        button.href = `${activity.link}`
+    }
+    
 
     wrapper.appendChild(clone)
 });
 
 document.querySelector(".animals").appendChild(wrapper)
 
-function filterPets(species) {
-    const allPets = document.querySelectorAll(".animal-card")
+function filteractivitys(species) {
+    const allactivitys = document.querySelectorAll(".animal-card")
     if (species == "all") {
-        allPets.forEach(el => {
+        allactivitys.forEach(el => {
             el.style.display = ""
         })
     } else {
-        allPets.forEach(el => {
+        allactivitys.forEach(el => {
             if (el.querySelector(".species").textContent == species) {
                 el.style.display = ""
             } else {
