@@ -4,21 +4,13 @@ const activities = await activityPromise.json()
 const template = document.querySelector("#animal-card")
 const wrapper = document.createElement("div")
 
-function decideAgeText(age) {
-    if (!age) {
-        return "Less than a year old"
-    }
-
-    return age > 1 ? `${age} years old` : "1 year old"
-}
-
 activities.forEach(activity => {
     const clone = template.content.cloneNode(true)
     clone.querySelector("h3").textContent = activity.name
 
     const img = clone.querySelector("img")
     img.src = `../images/activities/${activity.photo}`
-    img.alt = `${activity.name}`
+    img.alt = activity.name
 
     clone.querySelector(".date").textContent = activity.date == undefined ? "" : `${activity.date}`
     
