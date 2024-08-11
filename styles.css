@@ -291,7 +291,7 @@ to {opacity: 1}
 
 /* Top Button */
 
-#myBtn {
+#TopBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
@@ -299,12 +299,16 @@ to {opacity: 1}
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
+    color: #702acb; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    
+    border-radius: 50%; /* Rounded corners */
+    font-size: 2rem; /* Increase font size */
+    transition: 0.3s;
+  }
+
+  #TopBtn:hover {
+    color: #09b8aa;
   }
 
 @media screen and (min-width: 768px) {
