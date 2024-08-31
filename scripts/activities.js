@@ -29,20 +29,3 @@ activities.forEach(activity => {
 });
 
 document.querySelector(".animals").appendChild(wrapper)
-
-function filteractivitys(species) {
-    const allactivitys = document.querySelectorAll(".animal-card")
-    if (species == "all") {
-        allactivitys.forEach(el => {
-            el.style.display = ""
-        })
-    } else {
-        allactivitys.forEach(el => {
-            if (el.querySelector(".species").textContent == species) {
-                el.style.display = ""
-            } else {
-                el.style.display = "none"
-            }
-        })
-    }
-}

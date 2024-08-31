@@ -1,0 +1,8 @@
+[
+    { "name": "The Hawks", "photo": "hawks.jpg", "arrivalDate": "October 3rd 1:55pm", "arrivalFlight": "SW2634", "departureDate": "October, 13th 10:45am", "departureFlight": "HA58" },
+    { "name": "The Chisholms", "photo": "chisholms.jpg", "arrivalDate": "October 3rd 1:55pm", "arrivalFlight": "SW2634", "departureDate": "October, 13th 9:45pm", "departureFlight": "" },
+    { "name": "The Millers", "photo": "millers.jpeg", "arrivalDate": "October 3rd 11:53am", "arrivalFlight": "AS861", "departureDate": "October, 12th 10:40am", "departureFlight": "AS862"},
+    { "name": "The Stenlunds", "photo": "stenlunds.jpg", "arrivalDate": "October 3rd 2:45pm", "arrivalFlight": "UA1736", "departureDate": "October 13th 7:30pm", "departureFlight": "UA1430" },
+    { "name": "Ben & Megan", "photo": "mandb.jpeg", "arrivalDate": "October 4th 8:55pm", "arrivalFlight": "AS805", "departureDate": "October 12th 4:15pm", "departureFlight": "AS886" },
+    { "name": "Connor & Alexis", "photo": "canda.jpg", "arrivalDate": "October 3rd", "arrivalFlight": "TBD", "departureDate": "October 9th", "departureFlight": "TBD" }
+]
