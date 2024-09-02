@@ -3,5 +3,6 @@
     { "name": "Family/Friends Pictures", "photo": "photo_2.jpg", "attending": "Everyone", "date": "Tuesday, Oct 8 4pm", "description": "Let's remember this trip with some pics!" },
     { "name": "Hawks Anniversary Pictures", "photo": "photo_1.jpg", "attending": "Hawk Family", "date": "Thursday, Oct 10 8am", "description": "The Hawks are off on an adventure!" },
     { "name": "Pineapple Tour", "photo": "pineapple.webp", "attending": "", "date": "Friday, Oct 11 9:30am", "description": "Who wants to check out some pineapples?!", "link": "https://mauipineappletour.com" },
-    { "name": "Golf", "photo": "golf.jpg", "attending": "Brad, Doug, Derek, Tim, Megan, Ben, Connor", "date": "TBD", "description": "FORE!!"}
+    { "name": "Golf", "photo": "golf.jpg", "attending": "Brad, Doug, Derek, Tim, Megan, Ben, Connor", "date": "TBD", "description": "FORE!!"},
+    { "name": "Snorkel 'n Slide", "photo": "snorkeling.jpg", "date": "Sunday, Oct 6 1pm", "attending": "All are Welcome!", "description": "The Maui Afternoon Tour is ideal for those that seek a less congested snorkeling experience. We snorkel & slide at the Coral Gardens or Turtle Town on most afternoons.", "address": "101 Ma'alaea Rd, Wailuku", "link": "https://www.viator.com/tours/Maui/Maui-Afternoon-Snorkeling-Tour-To-Coral-Gardens/d671-241329P2" }
   ]

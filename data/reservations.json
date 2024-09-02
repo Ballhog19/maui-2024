@@ -1,5 +1,4 @@
 [
     { "name": "DUO", "photo": "duo.jpg", "date": "Saturday, Oct 5 5:30pm", "attending": "Brad, Rachel, Megan, Ben", "description": "", "address": "3900 Wailea Alanui Dr, Kihei, HI 96753", "link": "https://www.fourseasons.com/maui/dining/restaurants/duo-steak-and-seafood/" },
-    { "name": "Gather", "photo": "gather.jpg", "date": "Monday, Oct 7 4pm", "attending": "Everyone!", "description": "", "address": "100 Wailea Golf Club Dr, Kihei, HI 96753", "link": "https://gatheronmaui.com/" },
-    { "name": "Snorkel 'n Slide", "photo": "snorkeling.jpg", "date": "Sunday, Oct 6 1pm", "attending": "All are Welcome!", "description": "The Maui Afternoon Tour is ideal for those that seek a less congested snorkeling experience. We snorkel & slide at the Coral Gardens or Turtle Town on most afternoons.", "address": "101 Ma'alaea Rd, Wailuku", "link": "https://www.viator.com/tours/Maui/Maui-Afternoon-Snorkeling-Tour-To-Coral-Gardens/d671-241329P2" }
+    { "name": "Gather", "photo": "gather.jpg", "date": "Monday, Oct 7 4pm", "attending": "Everyone!", "description": "", "address": "100 Wailea Golf Club Dr, Kihei, HI 96753", "link": "https://gatheronmaui.com/" }
 ]
